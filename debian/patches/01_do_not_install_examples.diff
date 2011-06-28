@@ -1,0 +1,14 @@
+Do not install examples
+Index: b/CMakeLists.txt
+===================================================================
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -46,7 +46,7 @@
+ # compute an overall version number which can be compared at once
+ MATH(EXPR RUBY_VERSION_NUMBER "${RUBY_VERSION_MAJOR}*10000 + ${RUBY_VERSION_MINOR}*100 + ${RUBY_VERSION_PATCH}")
+ 
+-add_subdirectory( examples )
++#add_subdirectory( examples )
+ add_subdirectory( src )
+ add_subdirectory( tools )
+ add_subdirectory( modules )

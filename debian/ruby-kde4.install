@@ -1,0 +1,16 @@
+usr/bin/krubyapplication
+usr/bin/rbkconfig_compiler4
+usr/lib/kde4/krubypluginfactory.so
+usr/lib/ruby/1.8/*/khtml.so
+usr/lib/ruby/1.8/*/kio.so
+usr/lib/ruby/1.8/*/korundum4.so
+usr/lib/ruby/1.8/*/ktexteditor.so
+usr/lib/ruby/1.8/*/nepomuk.so
+usr/lib/ruby/1.8/*/solid.so
+usr/lib/ruby/1.8/KDE/korundum4.rb
+usr/lib/ruby/1.8/khtml/khtml.rb
+usr/lib/ruby/1.8/kio/kio.rb
+usr/lib/ruby/1.8/ktexteditor/ktexteditor.rb
+usr/lib/ruby/1.8/nepomuk/nepomuk.rb
+usr/lib/ruby/1.8/solid/solid.rb
+

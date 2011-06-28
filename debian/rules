@@ -1,0 +1,18 @@
+#! /usr/bin/make -f
+# This has to be exported to make some magic below work.
+export DH_OPTIONS
+
+override_dh_install:
+	dh_install --list-missing
+
+override_dh_strip:
+	dh_strip --dbg-package=ruby-kde4-dbg
+
+#Always use Ruby 1.8.x. SmokeAkonadi is not being built.
+override_dh_auto_configure:
+	dh_auto_configure -- -DRUBY_EXECUTABLE=/usr/bin/ruby1.8
+
+#Build-Depend on debhelper (>= 7.4.10) for --parallel
+%:
+	dh $@ --parallel
+
