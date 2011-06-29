@@ -1,6 +1,5 @@
 Do not install examples
-Index: b/CMakeLists.txt
-===================================================================
+
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -46,7 +46,7 @@

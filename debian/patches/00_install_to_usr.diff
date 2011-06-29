@@ -1,6 +1,5 @@
 Install to /usr not /usr/local
-Index: b/CMakeLists.txt
-===================================================================
+
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -40,8 +40,8 @@
