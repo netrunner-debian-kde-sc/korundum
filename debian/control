@@ -16,7 +16,7 @@ Architecture: all
 Depends: ruby-kde4, ruby-akonadi, ruby-okular, ruby-plasma, ruby-soprano,
  ${misc:Depends}
 Provides: korundum4
-Replaces: korundum4
+Replaces: korundum4 (<< 4:4.6.80)
 Breaks: korundum4 (<< 4:4.6.80)
 Description: Ruby bindings for the KDE Development Platform
  This virtual package installs the complete suite of KDE bindings for the Ruby
