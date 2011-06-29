@@ -95,7 +95,7 @@ Description: Soprano ruby bindings
 #Transitional packages: http://wiki.debian.org/Teams/Ruby/RubyInWheezy
 Package: korundum4
 Architecture: all
-Depends: korundum
+Depends: ${misc:Depends}, korundum
 Description: Transitional dummy package for korundum4
  This package installs the complete suite of KDE bindings for Ruby
  including KHTML, Okular, Nepomuk, and Solid bindings.
@@ -104,7 +104,7 @@ Description: Transitional dummy package for korundum4
 
 Package: libakonadi-ruby
 Architecture: all
-Depends: ruby-akonadi
+Depends: ${misc:Depends}, ruby-akonadi
 Description: Transitional dummy package for libakonadi-ruby
  This package allows you to create applications that use the Akonadi PIM
  storage service in the Ruby language.
@@ -113,7 +113,7 @@ Description: Transitional dummy package for libakonadi-ruby
 
 Package: libakonadi-ruby1.8
 Architecture: all
-Depends: ruby-akonadi
+Depends: ${misc:Depends}, ruby-akonadi
 Description: Transitional dummy package for libakonadi-ruby1.8
  This package allows you to create applications that use the Akonadi PIM
  storage service in the Ruby language.
@@ -122,7 +122,7 @@ Description: Transitional dummy package for libakonadi-ruby1.8
 
 Package: libkde4-ruby
 Architecture: all
-Depends: ruby-kde4
+Depends: ${misc:Depends}, ruby-kde4
 Description: Transitional dummy package for libkde4-ruby
  This package installs the KDE bindings for the Ruby 1.8 interpreter.
  .
@@ -130,7 +130,7 @@ Description: Transitional dummy package for libkde4-ruby
 
 Package: libkde4-ruby1.8
 Architecture: all
-Depends: ruby-kde4
+Depends: ${misc:Depends}, ruby-kde4
 Description: Transitional dummy package for libkde4-ruby1.8
  This package installs KDE bindings for the default Ruby interpreter.
  .
@@ -138,7 +138,7 @@ Description: Transitional dummy package for libkde4-ruby1.8
 
 Package: libokular-ruby
 Architecture: all
-Depends: ruby-okular
+Depends: ${misc:Depends}, ruby-okular
 Description: Transitional dummy package for libokular-ruby
  This package allows you to create extensions for the Okular document reader.
  .
@@ -146,7 +146,7 @@ Description: Transitional dummy package for libokular-ruby
 
 Package: libokular-ruby1.8
 Architecture: all
-Depends: ruby-okular
+Depends: ${misc:Depends}, ruby-okular
 Description: Transitional dummy package for libokular-ruby1.8
  This package allows you to create extensions for the Okular document reader.
  .
@@ -154,7 +154,7 @@ Description: Transitional dummy package for libokular-ruby1.8
 
 Package: libplasma-ruby
 Architecture: all
-Depends: ruby-plasma
+Depends: ${misc:Depends}, ruby-plasma
 Description: Transitional dummy package for libplasma-ruby
  This package allows you to create desktop widgets in the Ruby language.
  .
@@ -162,7 +162,7 @@ Description: Transitional dummy package for libplasma-ruby
 
 Package: libplasma-ruby1.8
 Architecture: all
-Depends: ruby-plasma
+Depends: ${misc:Depends}, ruby-plasma
 Description: Transitional dummy package for libplasma-ruby1.8
  This package allows you to create desktop widgets in the Ruby language.
  .
@@ -170,7 +170,7 @@ Description: Transitional dummy package for libplasma-ruby1.8
 
 Package: libsoprano-ruby
 Architecture: all
-Depends: ruby-soprano
+Depends: ${misc:Depends}, ruby-soprano
 Description: Transitional dummy package for libsoprano-ruby
  This package allows you to create applications that use the Soprano RDF
  storage, parsing and serialization framework in the Ruby language.
@@ -179,7 +179,7 @@ Description: Transitional dummy package for libsoprano-ruby
 
 Package: libsoprano-ruby1.8
 Architecture: all
-Depends: ruby-soprano
+Depends: ${misc:Depends}, ruby-soprano
 Description: Transitional dummy package for libsoprano-ruby1.8
  This package allows you to create applications that use the Soprano RDF
  storage, parsing and serialization framework in the Ruby language.
