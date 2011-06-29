@@ -2,7 +2,7 @@ Do not install examples
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -46,7 +46,7 @@
+@@ -46,7 +46,7 @@ SET(CUSTOM_RUBY_SITE_LIB_DIR ${RUBY_RUBY
  # compute an overall version number which can be compared at once
  MATH(EXPR RUBY_VERSION_NUMBER "${RUBY_VERSION_MAJOR}*10000 + ${RUBY_VERSION_MINOR}*100 + ${RUBY_VERSION_PATCH}")
  

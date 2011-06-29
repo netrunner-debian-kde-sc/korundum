@@ -2,7 +2,7 @@ Install to /usr not /usr/local
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -40,8 +40,8 @@
+@@ -40,8 +40,8 @@ if (NOT COMPILE_RUBY)
      return()
  endif (NOT COMPILE_RUBY)
  
