@@ -1,0 +1,229 @@
+--- a/examples/RubberDoc.rb
++++ b/examples/RubberDoc.rb
+@@ -1,6 +1,6 @@
+ #!/usr/bin/env ruby
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ about = KDE::AboutData.new("one", "two", "three")
+ KDE::CmdLineArgs.init(1, ["RubberDoc"], about)
+--- a/examples/menudemo.rb
++++ b/examples/menudemo.rb
+@@ -38,7 +38,7 @@ dealings in this Software without prior
+ copyright holder.
+ =end
+ 
+-require 'Korundum'
++require 'korundum4'
+ include KDE
+ 
+ class MainWin < MainWindow
+--- a/examples/mimetype.rb
++++ b/examples/mimetype.rb
+@@ -41,7 +41,7 @@ dealings in this Software without prior
+ copyright holder.
+ =end
+ 
+-require 'Korundum'
++require 'korundum4'
+ include KDE
+ 
+ class MainWin < MainWindow
+--- a/examples/systray.rb
++++ b/examples/systray.rb
+@@ -31,7 +31,7 @@ dealings in this Software without prior
+ copyright holder.
+ =end
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ class MainWin < KDE::MainWindow
+     def initialize(*args)
+--- a/examples/uikmdi.rb
++++ b/examples/uikmdi.rb
+@@ -32,7 +32,7 @@ All is not rosy, however:
+ 
+ =end
+ 
+-require 'Korundum'
++require 'korundum4'
+ include KDE
+ 
+ class KmdiExample < KDE::MdiMainFrm
+--- a/examples/xmlgui.rb
++++ b/examples/xmlgui.rb
+@@ -1,6 +1,6 @@
+ #!/usr/bin/env ruby
+ 
+-require 'Korundum'
++require 'korundum4'
+ require 'tempfile'
+ 
+ about = KDE::AboutData.new("one", "two", "three")
+--- a/examples/xmlmenudemo.rb
++++ b/examples/xmlmenudemo.rb
+@@ -38,7 +38,7 @@ dealings in this Software without prior
+ copyright holder.
+ =end
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ class MainWin < KDE::MainWindow
+ 
+--- a/src/lib/KDE/korundum4.rb
++++ b/src/lib/KDE/korundum4.rb
+@@ -19,7 +19,7 @@
+  ***************************************************************************/
+ =end
+ 
+-require 'Qt'
++require 'Qt4'
+ 
+ module KDE
+ 	def KDE.i18n(text, *args)
+--- a/templates/annotated/basicapp.rb
++++ b/templates/annotated/basicapp.rb
+@@ -31,7 +31,7 @@ dealings in this Software without prior
+ copyright holder.
+ =end
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ =begin
+ Most Korundum applications will need a main window - the is the top
+--- a/templates/annotated/menuapp1.rb
++++ b/templates/annotated/menuapp1.rb
+@@ -41,7 +41,7 @@ copyright holder.
+ =end
+ 
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ class MainWin < KDE::MainWindow
+ 	TOOLBAR_NEW   = 1
+--- a/templates/annotated/menuapp2.rb
++++ b/templates/annotated/menuapp2.rb
+@@ -36,7 +36,7 @@ copyright holder.
+ =end
+ 
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ 
+ 
+--- a/templates/annotated/menuapp3.rb
++++ b/templates/annotated/menuapp3.rb
+@@ -35,7 +35,7 @@ copyright holder.
+ =end
+ 
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ class MainWin < KDE::MainWindow
+ 	STATUSBAR_LEFT   = 1
+--- a/templates/annotated/minimal.rb
++++ b/templates/annotated/minimal.rb
+@@ -36,7 +36,7 @@ dealings in this Software without prior
+ copyright holder.
+ =end
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ 
+ =begin
+--- a/templates/annotated/systray1.rb
++++ b/templates/annotated/systray1.rb
+@@ -37,7 +37,7 @@ dealings in this Software without prior
+ copyright holder.
+ =end
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ # This template uses KDE::MainWindow as the main window widget
+ # It solves the problem described in systray.rb by using
+--- a/templates/basic/basicapp.rb
++++ b/templates/basic/basicapp.rb
+@@ -31,7 +31,7 @@ dealings in this Software without prior
+ copyright holder.
+ =end
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ class MainWin < KDE::MainWindow
+     def initialize(*args)
+--- a/templates/basic/menuapp1.rb
++++ b/templates/basic/menuapp1.rb
+@@ -41,7 +41,7 @@ copyright holder.
+ =end
+ 
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ class MainWin < KDE::MainWindow
+ 	TOOLBAR_NEW   = 1
+--- a/templates/basic/menuapp2.rb
++++ b/templates/basic/menuapp2.rb
+@@ -36,7 +36,7 @@ copyright holder.
+ =end
+ 
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ 
+ 
+--- a/templates/basic/menuapp3.rb
++++ b/templates/basic/menuapp3.rb
+@@ -35,7 +35,7 @@ copyright holder.
+ =end
+ 
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ class MainWin < KDE::MainWindow
+ 	STATUSBAR_LEFT   = 1
+--- a/templates/basic/minimal.rb
++++ b/templates/basic/minimal.rb
+@@ -31,7 +31,7 @@ dealings in this Software without prior
+ copyright holder.
+ =end
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ 
+ 
+--- a/templates/basic/systray1.rb
++++ b/templates/basic/systray1.rb
+@@ -31,7 +31,7 @@ dealings in this Software without prior
+ copyright holder.
+ =end
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ class MainWin < KDE::MainWindow
+ 	slots 'slotQuitSelected()'
+--- a/examples/kludgeror.rb
++++ b/examples/kludgeror.rb
+@@ -4,7 +4,7 @@
+ # -- gg.
+ # AK - ported to ruby
+ 
+-require 'Korundum'
++require 'korundum4'
+ 
+ opt =     [ [ "+[url]",      "An URL to open at startup.",         ""            ],
+             [ "z",           "A dummy binary option.",             ""            ],
