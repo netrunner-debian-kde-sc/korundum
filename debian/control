@@ -37,9 +37,8 @@ Section: debug
 Priority: extra
 Architecture: any
 Depends: ruby-kde4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
-Provides: kdebindings-dbg
 Replaces: kdebindings-dbg
-Breaks: kdebindings-dbg (<< 4:4.6.80)
+Breaks: kdebindings-dbg
 Description: Debug symbols for the KDE ruby bindings
  This package contains debugging files used to investigate problems with the
  KDE Ruby bindings.
