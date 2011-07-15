@@ -44,7 +44,7 @@ Package: ruby-kde4-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: ruby-kde4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: ruby-kde4 (= ${binary:Version}), ${misc:Depends}
 Recommends: ruby-qt4-dbg
 Replaces: kdebindings-dbg
 Breaks: kdebindings-dbg
