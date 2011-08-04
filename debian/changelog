@@ -7,5 +7,6 @@ korundum (4:4.6.95-1) UNRELEASED; urgency=low
 
   [ Felix Geyer ]
   * Fix lintian warning nested-examples-directory.
+  * Add license of tools/rbkconfig_compiler/kcfg.xsd to debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jun 2011 22:01:09 -0500
