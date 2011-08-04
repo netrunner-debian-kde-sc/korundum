@@ -5,4 +5,7 @@ korundum (4:4.6.95-1) UNRELEASED; urgency=low
   * Follow package naming guidelines for Ruby in Wheeze.
   * Add inter-module dependencies.
 
+  [ Felix Geyer ]
+  * Fix lintian warning nested-examples-directory.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jun 2011 22:01:09 -0500
