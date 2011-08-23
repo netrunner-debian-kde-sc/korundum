@@ -1,4 +1,4 @@
-korundum (4:4.6.95-1) UNRELEASED; urgency=low
+korundum (4:4.7.0-1) UNRELEASED; urgency=low
 
   [ David Palacio ]
   * Source package `kdebindings` split.
