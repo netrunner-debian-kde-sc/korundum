@@ -1,3 +1,2 @@
-install_to_usr.diff
 do_not_install_examples.diff
 fix_ruby_requires.diff
