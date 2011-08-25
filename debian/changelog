@@ -1,9 +1,35 @@
-korundum (4:4.7.0-1) UNRELEASED; urgency=low
+korundum (4:4.7.0-0r1) UNRELEASED; urgency=low
+
+  * Initial release, split from the kdebindings source.
 
   [ David Palacio ]
-  * Source package `kdebindings` split.
-  * Follow package naming guidelines for Ruby in Wheeze.
-  * Add inter-module dependencies.
+  * Follow package naming guidelines for Ruby.
+  * Update control:
+    - add ruby-kde4-dbg
+    - update Uploaders
+    - add inter-module dependencies
+  * Switch to dh7:
+    - clean rules
+    - pass --list-missing to dh_install
+  * Adapt watch file to the new source name.
+  * Adapt Vcs fields.
+  * Switch copyright to the DEP-5 format, revision 174.
+
+  [ Pino Toscano ]
+  * Update control:
+    - ruby-kde4-dbg: make it break/replace kdebindings-dbg
+    - add ${misc:Depends} to the packages lacking it
+    - improve descriptions
+    - require smoke-dev-tools, libsmokeqt4-dev, libsmokekde-dev, and
+      libqtruby4shared-dev >= 4.7.0
+    - tighten the dependencies of the kde ruby-* modules wrt ruby-kde4
+  * Update the patches:
+    - strip sequence numbers from the filenames
+    - refresh
+    - add DEP-3 headers for patches which didn't have them
+
+  [ Modestas Vainius ]
+  * Remove myself from Uploaders.
 
   [ Felix Geyer ]
   * Fix lintian warning nested-examples-directory.
