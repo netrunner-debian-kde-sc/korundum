@@ -57,7 +57,7 @@ Description: Debug symbols for the KDE ruby bindings
 
 Package: ruby-akonadi
 Architecture: any
-Depends: ruby-qt4, ${shlibs:Depends}, ${misc:Depends}
+Depends: ruby-kde4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Provides: libakonadi-ruby, libakonadi-ruby1.8
 Replaces: libakonadi-ruby (<< 4:4.6.80), libakonadi-ruby1.8 (<< 4:4.6.80)
 Breaks: libakonadi-ruby (<< 4:4.6.80), libakonadi-ruby1.8 (<< 4:4.6.80)
@@ -69,7 +69,7 @@ Description: Akonadi Ruby bindings
 
 Package: ruby-okular
 Architecture: any
-Depends: ruby-qt4, ${shlibs:Depends}, ${misc:Depends}
+Depends: ruby-kde4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Provides: libokular-ruby, libokular-ruby1.8
 Replaces: libokular-ruby (<< 4:4.6.80), libokular-ruby1.8 (<< 4:4.6.80)
 Breaks: libokular-ruby (<< 4:4.6.80), libokular-ruby1.8 (<< 4:4.6.80)
@@ -80,7 +80,7 @@ Description: Okular Ruby bindings
 
 Package: ruby-plasma
 Architecture: any
-Depends: ruby-kde4, ruby-qt4, ruby-qt4-webkit, ${shlibs:Depends}, ${misc:Depends}
+Depends: ruby-kde4 (= ${binary:Version}), ruby-qt4, ruby-qt4-webkit, ${shlibs:Depends}, ${misc:Depends}
 Provides: libplasma-ruby, libplasma-ruby1.8
 Replaces: libplasma-ruby (<< 4:4.6.80), libplasma-ruby1.8 (<< 4:4.6.80)
 Breaks: libplasma-ruby (<< 4:4.6.80), libplasma-ruby1.8 (<< 4:4.6.80)
