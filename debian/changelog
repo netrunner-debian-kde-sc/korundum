@@ -27,6 +27,7 @@ korundum (4:4.7.0-0r1) UNRELEASED; urgency=low
     - strip sequence numbers from the filenames
     - refresh
     - add DEP-3 headers for patches which didn't have them
+  * Install the examples for ruby-akonadi, ruby-plasma, and ruby-soprano.
 
   [ Modestas Vainius ]
   * Remove myself from Uploaders.
