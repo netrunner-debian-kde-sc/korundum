@@ -14,6 +14,8 @@ korundum (4:4.7.0-0r1) UNRELEASED; urgency=low
   * Adapt watch file to the new source name.
   * Adapt Vcs fields.
   * Switch copyright to the DEP-5 format, revision 174.
+  * Add do_not_install_examples.diff patch to make cmake not install the
+    examples.
 
   [ Pino Toscano ]
   * Update control:

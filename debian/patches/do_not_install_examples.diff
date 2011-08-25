@@ -1,4 +1,7 @@
-Do not install examples
+Author: David Palacio <dpalacio@orbitalibre.org>
+Description: Do not install examples
+Last-Update: 2011-06-28
+Forwarded: no
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
