@@ -34,6 +34,7 @@ korundum (4:4.7.1-0r1) UNRELEASED; urgency=low
   * Update rules:
     - do not compress .rb, .ui, and .rc files (found in the examples)
   * Install the examples for ruby-akonadi, ruby-plasma, and ruby-soprano.
+  * Update copyright.
 
   [ Modestas Vainius ]
   * Remove myself from Uploaders.
