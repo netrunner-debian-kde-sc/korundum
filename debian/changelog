@@ -1,6 +1,8 @@
 korundum (4:4.7.1-0r1) UNRELEASED; urgency=low
 
-  * Initial release, split from the kdebindings source.
+  * Initial release, split from the kdebindings source:
+    - fixes the uninstallability of the korundum components of kdebindings
+      (Closes: #640727, #642243)
 
   [ David Palacio ]
   * Follow package naming guidelines for Ruby.
