@@ -25,7 +25,7 @@ korundum (4:4.7.1-0r1) UNRELEASED; urgency=low
     - add ${misc:Depends} to the packages lacking it
     - improve descriptions
     - require smoke-dev-tools, libsmokeqt4-dev, libsmokekde-dev, and
-      libqtruby4shared-dev >= 4.7.0
+      libqtruby4shared-dev >= 4.7.1
     - tighten the dependencies of the kde ruby-* modules wrt ruby-kde4
     - manually export CXXFLAGS and LDFLAGS from dpkg-buildflags now,
       as dpkg-buildpackage does not do that anymore
