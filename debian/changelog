@@ -11,6 +11,8 @@ korundum (4:4.7.4-0r1) UNRELEASED; urgency=low
     - switch to copyright-format v1.0
     - bump year for myself for the current one
   * Set section oldlibs and priority extra for all the transitional packages.
+  * Bump the smoke-dev-tools, libsmokeqt4-dev, libsmokekde-dev, and
+    libqtruby4shared-dev build dependencies to >= 4:4.7.4.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Apr 2012 20:11:24 +0200
 
