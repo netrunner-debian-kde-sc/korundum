@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Torsten Marek <shlomme@debian.org>, Sune Vuorela <sune@debian.org>, David Palacio <dpalacio@orbitalibre.org>, Michael Meskes <meskes@debian.org>
 Build-Depends: debhelper (>= 9), cmake, ruby1.8, ruby1.8-dev,
- smoke-dev-tools (>= 4:4.7.4), libsmokeqt4-dev (>= 4:4.7.4),
- libsmokekde-dev (>= 4:4.7.4), libqtruby4shared-dev (>= 4:4.7.4),
+ smoke-dev-tools (>= 4:4.8.4), libsmokeqt4-dev (>= 4:4.8.4),
+ libsmokekde-dev (>= 4:4.8.4), libqtruby4shared-dev (>= 4:4.8.4),
  kdelibs5-dev, kdepimlibs5-dev, libakonadi-dev, okular-dev, libsoprano-dev
 Standards-Version: 3.9.3
 Homepage: http://projects.kde.org/projects/kde/kdebindings/ruby/korundum
