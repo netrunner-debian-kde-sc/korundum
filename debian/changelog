@@ -1,10 +1,11 @@
-korundum (4:4.10.2-1) UNRELEASED; urgency=low
+korundum (4:4.10.2-1) experimental; urgency=low
 
+  [ Diane Trout ]
   * New upstream release. 
   * Bump the smoke-dev-tools, libsmokeqt4-dev libsmokekde-dev and
     libqtruby4shared-dev build dependencies to >= 4:4.10.
 
- -- Diane Trout <diane@ghic.org>  Sun, 07 Apr 2013 15:41:37 -0700
+ -- Sune Vuorela <sune@debian.org>  Mon, 08 Apr 2013 19:38:46 +0000
 
 korundum (4:4.8.4-1) unstable; urgency=low
 
