@@ -1,3 +1,10 @@
+korundum (4:4.10.2-2) UNRELEASED; urgency=low
+
+  [ Daniele E. Domenichelli ]
+  * Bump okular-dev build dependency to >= 4:4.10.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Apr 2013 12:23:20 +0200
+
 korundum (4:4.10.2-1) experimental; urgency=low
 
   [ Diane Trout ]
