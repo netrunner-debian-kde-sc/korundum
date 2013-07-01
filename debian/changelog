@@ -1,6 +1,8 @@
 korundum (4:4.10.4-2) experimental; urgency=low
 
-  * 
+  * New patch: rbkconfig_compiler_mayhem_fix.patch
+    fix for http://www.forallsecure.com/bug-
+    reports/c83a9d5bc92bafac366256af920d7da056febe26/
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Jun 2013 09:22:16 +0200
 

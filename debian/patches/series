@@ -1,2 +1,3 @@
 do_not_install_examples.diff
 fix_ruby_requires.diff
+rbkconfig_compiler_mayhem_fix.patch

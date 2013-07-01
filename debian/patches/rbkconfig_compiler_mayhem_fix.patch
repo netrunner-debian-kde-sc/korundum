@@ -1,0 +1,13 @@
+Index: korundum-4.10.4/tools/rbkconfig_compiler/rbkconfig_compiler.cpp
+===================================================================
+--- korundum-4.10.4.orig/tools/rbkconfig_compiler/rbkconfig_compiler.cpp	2013-07-01 15:10:45.870585849 +0200
++++ korundum-4.10.4/tools/rbkconfig_compiler/rbkconfig_compiler.cpp	2013-07-01 15:15:43.930792384 +0200
+@@ -51,7 +51,7 @@
+ 
+     for (int i = 1; i < args.count(); ++i) {
+         if (args.at(i) == "-d" ||  args.at(i) == "--directory") {
+-            if (i + 1 > args.count()) {
++            if (i + 1 >= args.count()) {
+                 std::cerr << qPrintable(args.at(i)) << " needs an argument" << std::endl;
+                 exit(1);
+             }
