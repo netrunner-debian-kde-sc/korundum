@@ -6,7 +6,8 @@ Uploaders: Torsten Marek <shlomme@debian.org>,
            Sune Vuorela <sune@debian.org>,
            David Palacio <dpalacio@orbitalibre.org>,
            Michael Meskes <meskes@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
+           Cédric Boutillier <boutil@debian.org>
 Build-Depends: debhelper (>= 9), cmake, ruby, ruby-dev,
  smoke-dev-tools (>= 4:4.11), libsmokeqt4-dev (>= 4:4.11),
  libsmokekde-dev (>= 4:4.11), libqtruby4shared-dev (>= 4:4.11),
@@ -14,7 +15,7 @@ Build-Depends: debhelper (>= 9), cmake, ruby, ruby-dev,
  libakonadi-dev, okular-dev (>= 4:4.11),
  libsoprano-dev,
  nepomuk-core-dev (>= 4:4.11)
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://projects.kde.org/projects/kde/kdebindings/ruby/korundum
 Vcs-Git: git://anonscm.debian.org/git/pkg-kde/kde-sc/korundum.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/korundum.git;a=summary

@@ -1,6 +1,8 @@
 korundum (4:4.11.3-2) UNRELEASED; urgency=low
 
-  * Build against default Ruby version (Closes: #723634). 
+  * Build against default Ruby version (Closes: #723634).
+  * Add myself to uploaders.
+  * Bump Standards-Version to 3.9.5 (no changes needed).
 
  -- Cédric Boutillier <boutil@debian.org>  Tue, 03 Dec 2013 07:50:02 +0100
 
