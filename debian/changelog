@@ -4,6 +4,8 @@ korundum (4:4.11.3-2) UNRELEASED; urgency=low
   * Add myself to uploaders.
   * Bump Standards-Version to 3.9.5 (no changes needed).
   * Use Ruby vendor directories to install as per Ruby policy.
+  * Increase minimal version of libqtruby4shared-dev in Build-Depends to
+    ensure ruby1.9 support.
 
  -- Cédric Boutillier <boutil@debian.org>  Tue, 03 Dec 2013 07:50:02 +0100
 

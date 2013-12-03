@@ -10,7 +10,7 @@ Uploaders: Torsten Marek <shlomme@debian.org>,
            Cédric Boutillier <boutil@debian.org>
 Build-Depends: debhelper (>= 9), cmake, ruby, ruby-dev,
  smoke-dev-tools (>= 4:4.11), libsmokeqt4-dev (>= 4:4.11),
- libsmokekde-dev (>= 4:4.11), libqtruby4shared-dev (>= 4:4.11),
+ libsmokekde-dev (>= 4:4.11), libqtruby4shared-dev (>= 4:4.11-2),
  kdelibs5-dev (>= 4:4.11), kdepimlibs5-dev (>= 4:4.11),
  libakonadi-dev, okular-dev (>= 4:4.11),
  libsoprano-dev,
