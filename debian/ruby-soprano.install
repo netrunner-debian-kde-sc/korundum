@@ -1,2 +1,2 @@
-usr/lib/ruby/1.8/*/soprano.so
-usr/lib/ruby/1.8/soprano/soprano.rb
+usr/lib/ruby/vendor_ruby/*/*/soprano.so
+usr/lib/ruby/vendor_ruby/*/soprano/soprano.rb

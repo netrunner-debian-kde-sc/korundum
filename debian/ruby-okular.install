@@ -1,2 +1,2 @@
-usr/lib/ruby/1.8/*/okular.so
-usr/lib/ruby/1.8/okular/okular.rb
+usr/lib/ruby/vendor_ruby/*/*/okular.so
+usr/lib/ruby/vendor_ruby/*/okular/okular.rb
