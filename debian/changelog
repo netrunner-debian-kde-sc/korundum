@@ -9,6 +9,7 @@ korundum (4:4.11.3-2) unstable; urgency=low
     ensure ruby1.9 support.
   * License for modules/soprano/examples/soprano_util/soprano_util.rb precised
     to BSD-2-clause (confirmation from Olivier Berger).
+  * Drop transitional packages, already in Wheezy.
 
  -- Cédric Boutillier <boutil@debian.org>  Tue, 10 Dec 2013 16:14:50 +0100
 

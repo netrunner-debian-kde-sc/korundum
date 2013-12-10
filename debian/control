@@ -24,9 +24,6 @@ Package: korundum
 Architecture: all
 Depends: ruby-kde4, ruby-akonadi, ruby-okular, ruby-plasma, ruby-soprano,
  ${misc:Depends}
-Provides: korundum4
-Replaces: korundum4 (<< 4:4.9.80)
-Breaks: korundum4 (<< 4:4.9.80)
 Description: Ruby bindings for the KDE Development Platform
  This virtual package installs the complete suite of KDE bindings for the Ruby
  language including KHTML, Okular, Nepomuk, and Solid bindings.
@@ -36,9 +33,6 @@ Description: Ruby bindings for the KDE Development Platform
 Package: ruby-kde4
 Architecture: any
 Depends: ruby-qt4, ${shlibs:Depends}, ${misc:Depends}
-Provides: libkde4-ruby, libkde4-ruby1.8
-Replaces: libkde4-ruby (<< 4:4.9.80), libkde4-ruby1.8 (<< 4:4.9.80)
-Breaks: libkde4-ruby (<< 4:4.9.80), libkde4-ruby1.8 (<< 4:4.9.80)
 Description: KDE bindings for the Ruby language
  This package contains the Ruby bindings for KDE libraries, including:
   * KHTML
@@ -66,9 +60,6 @@ Description: Debug symbols for the KDE ruby bindings
 Package: ruby-akonadi
 Architecture: any
 Depends: ruby-kde4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
-Provides: libakonadi-ruby, libakonadi-ruby1.8
-Replaces: libakonadi-ruby (<< 4:4.9.80), libakonadi-ruby1.8 (<< 4:4.9.80)
-Breaks: libakonadi-ruby (<< 4:4.9.80), libakonadi-ruby1.8 (<< 4:4.9.80)
 Description: Akonadi Ruby bindings
  This package allows you to create applications that use the Akonadi PIM
  storage service in the Ruby language.
@@ -78,9 +69,6 @@ Description: Akonadi Ruby bindings
 Package: ruby-okular
 Architecture: any
 Depends: ruby-kde4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
-Provides: libokular-ruby, libokular-ruby1.8
-Replaces: libokular-ruby (<< 4:4.9.80), libokular-ruby1.8 (<< 4:4.9.80)
-Breaks: libokular-ruby (<< 4:4.9.80), libokular-ruby1.8 (<< 4:4.9.80)
 Description: Okular Ruby bindings
  This package allows you to create extensions for the Okular document reader.
  .
@@ -89,9 +77,6 @@ Description: Okular Ruby bindings
 Package: ruby-plasma
 Architecture: any
 Depends: ruby-kde4 (= ${binary:Version}), ruby-qt4, ruby-qt4-webkit, ${shlibs:Depends}, ${misc:Depends}
-Provides: libplasma-ruby, libplasma-ruby1.8
-Replaces: libplasma-ruby (<< 4:4.9.80), libplasma-ruby1.8 (<< 4:4.9.80)
-Breaks: libplasma-ruby (<< 4:4.9.80), libplasma-ruby1.8 (<< 4:4.9.80)
 Description: Plasma Ruby bindings
  This package allows you to create desktop widgets in the Ruby language.
  .
@@ -100,112 +85,8 @@ Description: Plasma Ruby bindings
 Package: ruby-soprano
 Architecture: any
 Depends: ruby-qt4, ${shlibs:Depends}, ${misc:Depends}
-Provides: libsoprano-ruby, libsoprano-ruby1.8
-Replaces: libsoprano-ruby (<< 4:4.9.80), libsoprano-ruby1.8 (<< 4:4.9.80)
-Breaks: libsoprano-ruby (<< 4:4.9.80), libsoprano-ruby1.8 (<< 4:4.9.80)
 Description: Soprano Ruby bindings
  This package allows you to create applications that use the Soprano RDF
  storage, parsing and serialization framework in the Ruby language.
  .
  This is part of the Korundum module.
-
-#Transitional packages: http://wiki.debian.org/Teams/Ruby/RubyInWheezy
-Package: korundum4
-Architecture: all
-Section: oldlibs
-Priority: extra
-Depends: ${misc:Depends}, korundum
-Description: transitional package for korundum
- This is a transitional package to ease upgrades to the korundum package.
- It can safely be removed.
-
-Package: libakonadi-ruby
-Architecture: all
-Section: oldlibs
-Priority: extra
-Depends: ${misc:Depends}, ruby-akonadi
-Description: transitional package for ruby-akonadi
- This is a transitional package to ease upgrades to the ruby-akonadi package.
- It can safely be removed.
-
-Package: libakonadi-ruby1.8
-Architecture: all
-Section: oldlibs
-Priority: extra
-Depends: ${misc:Depends}, ruby-akonadi
-Description: transitional package for ruby-akonadi
- This is a transitional package to ease upgrades to the ruby-akonadi package.
- It can safely be removed.
-
-Package: libkde4-ruby
-Architecture: all
-Section: oldlibs
-Priority: extra
-Depends: ${misc:Depends}, ruby-kde4
-Description: transitional package for ruby-kde4
- This is a transitional package to ease upgrades to the ruby-kde4 package.
- It can safely be removed.
-
-Package: libkde4-ruby1.8
-Architecture: all
-Section: oldlibs
-Priority: extra
-Depends: ${misc:Depends}, ruby-kde4
-Description: transitional package for ruby-kde4
- This is a transitional package to ease upgrades to the ruby-kde4 package.
- It can safely be removed.
-
-Package: libokular-ruby
-Architecture: all
-Section: oldlibs
-Priority: extra
-Depends: ${misc:Depends}, ruby-okular
-Description: transitional package for ruby-okular
- This is a transitional package to ease upgrades to the ruby-okular package.
- It can safely be removed.
-
-Package: libokular-ruby1.8
-Architecture: all
-Section: oldlibs
-Priority: extra
-Depends: ${misc:Depends}, ruby-okular
-Description: transitional package for ruby-okular
- This is a transitional package to ease upgrades to the ruby-okular package.
- It can safely be removed.
-
-Package: libplasma-ruby
-Architecture: all
-Section: oldlibs
-Priority: extra
-Depends: ${misc:Depends}, ruby-plasma
-Description: transitional package for ruby-plasma
- This is a transitional package to ease upgrades to the ruby-plasma package.
- It can safely be removed.
-
-Package: libplasma-ruby1.8
-Architecture: all
-Section: oldlibs
-Priority: extra
-Depends: ${misc:Depends}, ruby-plasma
-Description: transitional package for ruby-plasma
- This is a transitional package to ease upgrades to the ruby-plasma package.
- It can safely be removed.
-
-Package: libsoprano-ruby
-Architecture: all
-Section: oldlibs
-Priority: extra
-Depends: ${misc:Depends}, ruby-soprano
-Description: transitional package for ruby-soprano
- This is a transitional package to ease upgrades to the ruby-soprano package.
- It can safely be removed.
-
-Package: libsoprano-ruby1.8
-Architecture: all
-Section: oldlibs
-Priority: extra
-Depends: ${misc:Depends}, ruby-soprano
-Description: transitional package for ruby-soprano
- This is a transitional package to ease upgrades to the ruby-soprano package.
- It can safely be removed.
-
