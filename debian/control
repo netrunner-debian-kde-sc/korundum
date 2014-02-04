@@ -8,13 +8,20 @@ Uploaders: Torsten Marek <shlomme@debian.org>,
            Michael Meskes <meskes@debian.org>,
            Maximiliano Curia <maxy@debian.org>,
            Cédric Boutillier <boutil@debian.org>
-Build-Depends: debhelper (>= 9), cmake, ruby, ruby-dev,
- smoke-dev-tools (>= 4:4.11), libsmokeqt4-dev (>= 4:4.11),
- libsmokekde-dev (>= 4:4.11), libqtruby4shared-dev (>= 4:4.11-2),
- kdelibs5-dev (>= 4:4.11), kdepimlibs5-dev (>= 4:4.11),
- libakonadi-dev, okular-dev (>= 4:4.11),
- libsoprano-dev,
- nepomuk-core-dev (>= 4:4.11)
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kdelibs5-dev (>= 4:4.11),
+               kdepimlibs5-dev (>= 4:4.11),
+               libakonadi-dev,
+               libqtruby4shared-dev (>= 4:4.11-2),
+               libsmokekde-dev (>= 4:4.11),
+               libsmokeqt4-dev (>= 4:4.11),
+               libsoprano-dev,
+               nepomuk-core-dev (>= 4:4.11),
+               okular-dev (>= 4:4.11),
+               ruby,
+               ruby-dev,
+               smoke-dev-tools (>= 4:4.11)
 Standards-Version: 3.9.5
 Homepage: http://projects.kde.org/projects/kde/kdebindings/ruby/korundum
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/korundum.git
@@ -22,8 +29,12 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/korundum.git;a=s
 
 Package: korundum
 Architecture: all
-Depends: ruby-kde4, ruby-akonadi, ruby-okular, ruby-plasma, ruby-soprano,
- ${misc:Depends}
+Depends: ruby-akonadi,
+         ruby-kde4,
+         ruby-okular,
+         ruby-plasma,
+         ruby-soprano,
+         ${misc:Depends}
 Description: Ruby bindings for the KDE Development Platform
  This virtual package installs the complete suite of KDE bindings for the Ruby
  language including KHTML, Okular, Nepomuk, and Solid bindings.
@@ -32,7 +43,7 @@ Description: Ruby bindings for the KDE Development Platform
 
 Package: ruby-kde4
 Architecture: any
-Depends: ruby-qt4, ${shlibs:Depends}, ${misc:Depends}
+Depends: ruby-qt4, ${misc:Depends}, ${shlibs:Depends}
 Description: KDE bindings for the Ruby language
  This package contains the Ruby bindings for KDE libraries, including:
   * KHTML
@@ -59,7 +70,7 @@ Description: Debug symbols for the KDE ruby bindings
 
 Package: ruby-akonadi
 Architecture: any
-Depends: ruby-kde4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: ruby-kde4 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: Akonadi Ruby bindings
  This package allows you to create applications that use the Akonadi PIM
  storage service in the Ruby language.
@@ -68,7 +79,7 @@ Description: Akonadi Ruby bindings
 
 Package: ruby-okular
 Architecture: any
-Depends: ruby-kde4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: ruby-kde4 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: Okular Ruby bindings
  This package allows you to create extensions for the Okular document reader.
  .
@@ -76,7 +87,11 @@ Description: Okular Ruby bindings
 
 Package: ruby-plasma
 Architecture: any
-Depends: ruby-kde4 (= ${binary:Version}), ruby-qt4, ruby-qt4-webkit, ${shlibs:Depends}, ${misc:Depends}
+Depends: ruby-kde4 (= ${binary:Version}),
+         ruby-qt4,
+         ruby-qt4-webkit,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Plasma Ruby bindings
  This package allows you to create desktop widgets in the Ruby language.
  .
@@ -84,7 +99,7 @@ Description: Plasma Ruby bindings
 
 Package: ruby-soprano
 Architecture: any
-Depends: ruby-qt4, ${shlibs:Depends}, ${misc:Depends}
+Depends: ruby-qt4, ${misc:Depends}, ${shlibs:Depends}
 Description: Soprano Ruby bindings
  This package allows you to create applications that use the Soprano RDF
  storage, parsing and serialization framework in the Ruby language.
