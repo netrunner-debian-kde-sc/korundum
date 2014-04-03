@@ -1,3 +1,9 @@
+korundum (4:4.11.3-3) UNRELEASED; urgency=medium
+
+  * Build against ruby 2.0. (Closes: #739123)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Apr 2014 09:21:05 +0200
+
 korundum (4:4.11.3-2) unstable; urgency=low
 
   * Build against default Ruby version (Closes: #723634).

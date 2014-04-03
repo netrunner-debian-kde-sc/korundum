@@ -1,2 +1,2 @@
-usr/lib/ruby/vendor_ruby/*/*/akonadi.so
+usr/lib/*/ruby/vendor_ruby/*/akonadi.so
 usr/lib/ruby/vendor_ruby/*/akonadi/akonadi.rb

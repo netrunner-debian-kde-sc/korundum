@@ -1,2 +1,2 @@
-usr/lib/ruby/vendor_ruby/*/*/plasma_applet.so
+usr/lib/*/ruby/vendor_ruby/*/plasma_applet.so
 usr/lib/ruby/vendor_ruby/*/KDE/plasma.rb
