@@ -13,7 +13,7 @@ Build-Depends: cmake,
                kdelibs5-dev (>= 4:4.11),
                kdepimlibs5-dev (>= 4:4.11),
                libakonadi-dev,
-               libqtruby4shared-dev (>= 4:4.11.3-3~),
+               libqtruby4shared-dev (>= 4:4.11.3-4~),
                libsmokekde-dev (>= 4:4.11),
                libsmokeqt4-dev (>= 4:4.11),
                libsoprano-dev,
@@ -43,7 +43,7 @@ Description: Ruby bindings for the KDE Development Platform
 
 Package: ruby-kde4
 Architecture: any
-Depends: ruby-qt4, ${misc:Depends}, ${shlibs:Depends}
+Depends: ruby-qt4 (>= 4:4.11.3-4~), ${misc:Depends}, ${shlibs:Depends}
 Description: KDE bindings for the Ruby language
  This package contains the Ruby bindings for KDE libraries, including:
   * KHTML
@@ -99,7 +99,7 @@ Description: Plasma Ruby bindings
 
 Package: ruby-soprano
 Architecture: any
-Depends: ruby-qt4, ${misc:Depends}, ${shlibs:Depends}
+Depends: ruby-qt4 (>= 4:4.11.3-4~), ${misc:Depends}, ${shlibs:Depends}
 Description: Soprano Ruby bindings
  This package allows you to create applications that use the Soprano RDF
  storage, parsing and serialization framework in the Ruby language.
