@@ -1,3 +1,9 @@
+korundum (4:4.13.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 22 May 2014 14:17:30 +0200
+
 korundum (4:4.11.3-4) unstable; urgency=medium
 
   * Build against Ruby 2.1. (Closes: #747682)
