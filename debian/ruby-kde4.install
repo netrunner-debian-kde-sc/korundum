@@ -5,11 +5,9 @@ usr/lib/*/ruby/vendor_ruby/*/khtml.so
 usr/lib/*/ruby/vendor_ruby/*/kio.so
 usr/lib/*/ruby/vendor_ruby/*/korundum4.so
 usr/lib/*/ruby/vendor_ruby/*/ktexteditor.so
-usr/lib/*/ruby/vendor_ruby/*/nepomuk.so
 usr/lib/*/ruby/vendor_ruby/*/solid.so
 usr/lib/ruby/vendor_ruby/*/KDE/korundum4.rb
 usr/lib/ruby/vendor_ruby/*/khtml/khtml.rb
 usr/lib/ruby/vendor_ruby/*/kio/kio.rb
 usr/lib/ruby/vendor_ruby/*/ktexteditor/ktexteditor.rb
-usr/lib/ruby/vendor_ruby/*/nepomuk/nepomuk.rb
 usr/lib/ruby/vendor_ruby/*/solid/solid.rb
