@@ -18,7 +18,7 @@ Build-Depends: cmake,
                libsmokeqt4-dev (>= 4:4.11),
                libsoprano-dev,
                nepomuk-core-dev (>= 4:4.11),
-               okular-dev (>= 4:4.11),
+               okular-dev (>= 4:4.13),
                ruby,
                ruby-dev,
                smoke-dev-tools (>= 4:4.11)
