@@ -1,10 +1,10 @@
-korundum (4:4.13.1-1~) UNRELEASED; urgency=medium
+korundum (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Update install files.
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 13:41:36 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 Jun 2014 12:10:32 +0200
 
 korundum (4:4.11.3-4) unstable; urgency=medium
 
